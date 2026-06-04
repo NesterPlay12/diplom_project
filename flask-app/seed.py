@@ -1,7 +1,3 @@
-"""
-Заполнение базы данных тестовыми данными с реальными отзывами.
-Запуск: cd flask-app && python seed_with_reviews.py
-"""
 from datetime import datetime, timedelta
 import random
 from app import create_app
